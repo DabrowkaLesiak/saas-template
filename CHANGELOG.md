@@ -1,3 +1,42 @@
+# 1.0.0 (2025-10-14)
+
+
+### Bug Fixes
+
+* add demo banner at the top of the landing page ([ca66e4c](https://github.com/novasiliver/saas-template/commit/ca66e4cb3d9cb0c4f614d353ab56c2f5a5b6fd15))
+* chnage dashboard index message button in french translation ([6b92b4f](https://github.com/novasiliver/saas-template/commit/6b92b4f2150fb10c53d015f15dc447721960ed93))
+* clerk integration ([021d585](https://github.com/novasiliver/saas-template/commit/021d58540a32330b4cf48067000fcd514f785d8b))
+* hide text in logo used in dashboard and add spacing for sign in button used in navbar ([7cc2a0f](https://github.com/novasiliver/saas-template/commit/7cc2a0f174af872db75c2d4a8f6dd0bbfe76267e))
+* in dashboard, make the logo smaller, display without text ([e62846d](https://github.com/novasiliver/saas-template/commit/e62846d23da83f640bbb86f1c64a3fe48a4e7a3c))
+* issue to build Next.js with Node.js 22.7, use 22.6 instead ([45200b6](https://github.com/novasiliver/saas-template/commit/45200b6f2331cb03eabd67f23d2755f6a0d0cde3))
+* redirect user to the landing page after signing out ([d23f661](https://github.com/novasiliver/saas-template/commit/d23f661ce29b3e764a827b6199f64bca11f31ac3))
+* remove custom framework configuration for i18n-ally vscode ([04177c6](https://github.com/novasiliver/saas-template/commit/04177c6575947976ae24b34eaf5bf32a53f1bfbd))
+* remove hydration error and unify with pro version 1.6.1 ([16f4cfb](https://github.com/novasiliver/saas-template/commit/16f4cfbf4a936bca20f8ab6bed12980a10f76cd2))
+* remove update deps github workflow, add separator in dashboard header ([e2aa4bb](https://github.com/novasiliver/saas-template/commit/e2aa4bb805b8122d820383e2f423b5515444cb41))
+* update clerk to the latest version and update middlware to use await with auth ([11e7fc6](https://github.com/novasiliver/saas-template/commit/11e7fc69c487e81810ce28813f3b905a11fdd354))
+* update logicalId in checkly configuration ([c3ca287](https://github.com/novasiliver/saas-template/commit/c3ca287bf2bbc3c5686a48270e8ac838f3494f32))
+* use new vitest vscode setting for preventing automatic opening of the test results ([9b9eb71](https://github.com/novasiliver/saas-template/commit/9b9eb71f034290dbbdd1db74fafc0f720647ea7a))
+
+
+### Features
+
+* add custom framework for i18n-ally and replace deprecated Jest VSCode configuration ([770245b](https://github.com/novasiliver/saas-template/commit/770245bc287dd9f343702a25eaec2ce638165d4c))
+* add link to the GitHub repository ([1b76e7e](https://github.com/novasiliver/saas-template/commit/1b76e7e3b805ca081b21c09782195d606e223c2c))
+* create dashboard header component ([32ac9d1](https://github.com/novasiliver/saas-template/commit/32ac9d14bf46e6b07bc75e9c0b8f170f004dd38a))
+* don't redirect to organization-selection if the user is already on this page ([caca939](https://github.com/novasiliver/saas-template/commit/caca9396aacac51c86e2b38f1040c816c60bb1fe))
+* initial commit ([20c69a9](https://github.com/novasiliver/saas-template/commit/20c69a973ae94ff0aaddeac24ba7aeec80301a2b))
+* launching SaaS boilerplate for helping developers to build SaaS quickly ([4958ef6](https://github.com/novasiliver/saas-template/commit/4958ef64b71f728ae4bb48df6ee160b1dc658d25))
+* make the landing page responsive and works on mobile ([3186bf2](https://github.com/novasiliver/saas-template/commit/3186bf2796e0060c9652027da8cfac9ebc6c0c1a))
+* make user dashboard responsive ([bf1a451](https://github.com/novasiliver/saas-template/commit/bf1a451f8438127a3b8633113dfb5e27f548d10b))
+* migreate Env.mjs file to Env.ts ([d2faced](https://github.com/novasiliver/saas-template/commit/d2faced67aeda9ee2b0f29cf4effdd1decabfb1d))
+* remove next-sitemap and use the native Next.js sitemap/robots.txt ([b3a42f0](https://github.com/novasiliver/saas-template/commit/b3a42f0317d3779011c3015d901caec9f526b55e))
+* update de Next.js Boilerplate v3.58.1 ([661178a](https://github.com/novasiliver/saas-template/commit/661178a1e128dcb19db4def6b1e9fcc847d34810))
+* update to Drizzle Kit 0.22, Storybook 8, migrate to vitest ([e37944b](https://github.com/novasiliver/saas-template/commit/e37944bdb849564029d408a29d328805ef466e67))
+* update to Next.js Boilerpalte v3.54 ([ebd7e2a](https://github.com/novasiliver/saas-template/commit/ebd7e2a9c6422211796f08209e022e033c23b101))
+* upgrade to Clerk v5 and use Clerk's Core 2 ([77160b9](https://github.com/novasiliver/saas-template/commit/77160b9b7c9de7f84fd6e15eaafa93e09356a9e6))
+* use Node.js version 20 and 22 in GitHub Actions ([c9427b7](https://github.com/novasiliver/saas-template/commit/c9427b7137183c38f4dc42039bc6be9663ded0fa))
+* vscode jest open test result view on test fails and add unauthenticatedUrl in clerk middleware ([817cec1](https://github.com/novasiliver/saas-template/commit/817cec123afb821986f6b50344d344d420315451))
+
 ## [1.7.6](https://github.com/ixartz/SaaS-Boilerplate/compare/v1.7.5...v1.7.6) (2025-05-01)
 
 
